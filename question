@@ -1,0 +1,44 @@
+<!-- Assignment = TnP Management Server 
+Create a backend server for a Web Application for managing Training and Placement operations of your college which have the following use cases:
+
+
+1. TnP cell will be posting "Jobs"  applications for the students that will contain following Job description (Company Name, Job Role, Job Location, Salary,No of Vacancy, Branch Eligibility (i.e. which branch students can apply), Minimum CGPA required, Deadline Date for registration.
+
+
+2. Students will apply on these above posted jobs which will be stored in another "Registrations" collections, by giving following details, Student name, JobID, Branch, CGPA, passoutYear, emailID, phonenumber, Home Address, Job Status (Applied or shortlisted or Hired), Job application date.
+
+
+3. One company can post at a maximum of two jobs, so make sure to return error if TnP tries to post job of the same company more than twice.
+
+
+4. While registration make sure to check if a student is already applied to the same job. If student applies on the same job twice, he/she should get an error like "Already applied", and should not re-apply.
+
+
+5. TnP can change the job status of the students from applied or shortlisted or hired or declined.
+
+
+6. TnP can change Job details if required. 
+
+
+7. Student can change thier Registration details if required.
+
+
+8. Students must be able to view all the Job postings applied.
+
+
+9. Students can also see job postings according to their branch and cgpa.
+
+
+10. TnP can see all the students registered to any job.
+
+
+11. TnP can see all the hired/shortlisted/rejected students
+
+
+12. TnP can see all the hired students for a company
+
+
+13. TnP can delete any job posting
+
+
+14. Student can delete their registration. -->
